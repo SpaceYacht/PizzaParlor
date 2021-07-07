@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cheech's Pizza Parlor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+      <a href="order.html"><img src="tiedye1.jpg" alt="business logo"/></a>
+      <nav>
+        <ul style="list-style-type:none;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="locate.html">Our Location</a></li>
+        </ul>
+      </nav>
+    </header>
+      <div class="cols">
+        <div class="col1">
+          <form method="get" action="thankyou-1.html">
+          <fieldset>
+            <legend>
+              Contact Information
+            </legend>
+
+            <label for="fname">
+              Name:
+              <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+            </label>
+
+            <label for="lname">
+              Last Name:
+              <input type="text" name="lname" id="lname" required placeholder="Last Name" />
+            </label>
+
+            <label for="Number">
+              Number:
+              <input type="tel" name="Number" id="Number" required placeholder="Phone" />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              Whatchu want, holmes?
+            </legend>
+            <select name="Pizzas" id="Pizzas">
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
+              <option value="Carrier Pigeon">Carrier Pigeon</option>
+              <option value="Mysterious cloaked man makes contact with you on a dark, rainy night when you least expect it">Mysterious cloaked man makes contact with you on a dark, rainy night when you least expect it</option>
+            </select>
+
+            <label>
+              <input name="numsel" id="numsel" type="number" value="1" step="1" min="1" max="10" />
+            </label>
+          </fieldset>
+
+            <input class="submit" type="Submit" Value="Get 'em in the oven, pendejo!" />
+
+        </form>
+        </div>
+
+        <div class="col2">
+          <section class="box1">
+            <p>Pizza was great! deliver driver had a sweet low rider, man!<br> B-Real
+          </section>
+
+          <section class="box2">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </section>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
