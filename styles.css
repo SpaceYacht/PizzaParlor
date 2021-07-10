@@ -1,0 +1,196 @@
+body
+{
+  background: #6e9a44;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column
+{
+  display:flex;
+  /* flex: %; */
+  padding: 5px;
+  flex-wrap:wrap;
+}
+
+.col1
+{
+
+  width:100%;
+}
+
+.col2
+{
+
+  width: 100%;
+}
+
+.form
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  /* align-items:baseline; */
+  width: 100%;
+}
+
+/* .fset1
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items:stretch;
+  width: 33%;
+} */
+
+/* .input{width:100%;} */
+
+h1
+{
+  display:flex;
+}
+
+li
+{
+  list-style-type: none; width: 25%; display: inline;
+}
+
+ul
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .container
+{
+  margin: auto;
+} */
+
+/* .container
+{
+  margin: 20px auto 0px auto ;
+  padding: 35px;
+} */
+
+
+
+.container
+{
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+ .pizza
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu
+{
+   display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+}
+
+.contact
+{
+  justify-content: center;
+}
+
+.pizzadrop
+{
+  justify-content: center;
+}
+
+.box1
+{
+  justify-content: center;
+}
+
+.box2
+{
+  justify-content: center;
+}
+
+.box1
+{
+  text-align: center;
+  color: white;
+  background-color: black;
+  color: #3d9690;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+/* .col2 > box1 > p
+{
+  text-align: center;
+} */
+
+/* .facebook, .twitter
+{
+  align-items: center;
+} */
+
+.box2
+{
+  color: white;
+  background-color: black;
+  color: #3d9690;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 1037px)
+{
+  h1{display: none;}
+}
+
+@media screen and (max-width: 1037px)
+{
+  .img1{display: none;}
+  h1{font-size: 40px; justify-content: center;}
+}
+
+
+/* @media screen and (min-width: 1024px)
+{
+  ul{display:block;}
+} */
+
+/* @media screen and (min-width: 1024px)
+{
+  nav{display:block;}
+} */
+
+
+/* @media screen and (min-width: 1024px)
+{
+  li{display:block;}
+} */
